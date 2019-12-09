@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+.resaltador{
+	background-color: #05A990;
+	color: #fff;
+	font-size: 16px;
+	padding: 5px;
+	text-align: center;
+}
+
+#intro{
+	background-color: #fff;
+	padding: 10% 0;
+}
+
+#intro h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 60px;
+	margin-top: 20px;
+}
+
+#intro p{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+#servicios{
+	background-color: #212529;
+	padding: 10% 0;
+}
+
+#servicios h1{
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+	padding: 20px 0 40px 0;
+	border-bottom: #05A990 2px solid;
+}
+
+#servicios h2{
+	color: #D8D8D8;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 30px 0 20px 0;
+}
+
+#servicios p{
+	color: #D8D8D8;
+	font-size: 20px;
+}
+
+
+#servicios h3{
+	color: #D8D8D8;
+	font-size: 20px;
+	padding: 10px 0 20px 0;
+	text-align: center;
+}
+
+.icons{
+	font-size: 80px;
+	color: #D8D8D8;
+	margin: 20px 0 20px;
+}
+
+.cuadro{
+	border: 1px #D8D8D8 solid;
+	border-radius: 100%;
+}
+
+.titulo-negro{
+	text-transform: uppercase;
+	color: #212529;
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+	padding: 20px 0 20px 0;
+}
+
+.titulo-blanco{
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+	padding: 20px 0 20px 0;
+	border-bottom: #fff 2px solid;
+}
+#proyectos {
+	padding: 10% 0;
+}
+
+#proyectos h2{
+	color: #05A990;
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 40px;
+	border-bottom: 2px solid #05A990;
+}
+
+#contacto{
+	background-color: #05A990;
+}
+
+.btn-negro{
+	background-color: #212529;
+	color:#FFF;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 50px;
+	border-radius: 20px;
+	letter-spacing: 2px;
+	border: 0;
+}
+.btn-negro:hover{
+	background-color: #fff;
+	color: #05A990;
+}
+.footer-area{
+	background-color: #212529;	
+	}
+
+.gallery{
+	position: relative;
+	overflow: hidden;
+}
+
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	background-color: rgba(33,37,41,0.70);
+	opacity: 0;
+	transition: 0.3s all ease-out;
+}
+
+.gallery:hover .overlay{
+	opacity: 1;
+	transition: 0.3s all ease-in;
+}
+
+.gallery-texto{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+}
+.gallery-texto h4{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+.gallery-texto:hover {
+	opacity: 1;
+	transition: 0.3s all ease;
+}
+
+.img-zoom:hover img{
+	transform: scale(1.20);
+	transition: 0.3s all ease;
+}
+
+.img-zoom img{
+	transition: 0.3s all ease;
+}
+
+.footer-area{
+	background-color: #212529;
+	padding: 2% 0;
+	}
+
+.footer-area h2{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+	padding: 20px 0;
+	}
+
+.footer-area p{
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	padding: 1px 0;
+	}
+
+.redes{
+	font-size: 50px;
+	text-align: center;
+	color: #fff;
+}
+
+.redes:hover{
+	font-size: 50px;
+	text-align: center;
+	color: #05A990;
+}
